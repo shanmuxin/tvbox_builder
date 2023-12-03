@@ -10,12 +10,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: bestpvp
-            repoName: box_pangtong
-            branchName: main
-          - userName: bestpvp
-            repoName: box_wolong
-            branchName: main
+          - userName: shanmuxin
+            repoName: CatVodSpider
+            branchName: FongMi_CatVodSpider
     steps:
       - name: Checkout
         uses: actions/checkout@v3
